@@ -1,0 +1,8 @@
+18.2311 inches bicep arm length
+182 pixels bicep arm length
+222 pixels horizontal base support half length
+264 pixels vertical support length
+
+18.2311 * 222/182 = 22.23" horizontal support length
+
+18.2311 * 264/182 = 26.44" + 1.5" for horizontal beam + 1" baseplate
