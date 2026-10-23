@@ -11,8 +11,6 @@ and the NTRO controller sits on a plank at its foot.
 | ![The arm at full reach](Renders/Utra%201000%20Assembly%20Render%200.JPG) | ![Side view of the arm on its cart](Renders/Utra%201000%20Assembly%20Render%202.JPG) |
 | At full reach, with weights on the cart's feet | Side view |
 
-End effectors for the arm (pen holders and a chess gripper) are in [umbratek-end-effectors](https://github.com/Inventor22/umbratek-end-effectors).
-
 ## In a kitchen scene
 
 ![Three arms on carts, at a toaster, a bottle and a chess table](Renders/Kitchen%20Assembly%20Render%200.JPG)
@@ -21,6 +19,14 @@ End effectors for the arm (pen holders and a chess gripper) are in [umbratek-end
 |---|---|
 | ![Playing chess](Renders/Kitchen%20Assembly%20Render%201.JPG) | ![Side view of the kitchen scene](Renders/Kitchen%20Assembly%20Render%203.JPG) |
 | Playing chess with the [chess gripper](https://github.com/Inventor22/umbratek-end-effectors/tree/main/Chess%20Gripper) | Side view |
+
+## Related repositories
+
+- [umbratek-code](https://github.com/Inventor22/umbratek-code): software that drives the arm from a PC. A jog panel in
+  the browser, programs taught by hand, a command-line helper, and a simulator and MuJoCo twin for trying it all
+  without the arm.
+- [umbratek-end-effectors](https://github.com/Inventor22/umbratek-end-effectors): end effectors for the arm, including
+  pen holders and a chess gripper.
 
 ## Credits
 
