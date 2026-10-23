@@ -7,6 +7,9 @@ flange axis**, takes **any pen from 6 to 17 mm**, and pens are swapped by slidin
 without tools. Each cartridge grips its pen with **two twist chucks 56 mm apart**, so the pen can't rock. A base
 stays bolted to the arm and carries a spring stage with **15 mm of compliant travel**.
 
+[Quick-Change Pen Holder v2](../Quick-Change%20Pen%20Holder%20v2/README.md) uses the same cartridges on a printed
+PETG flexure stage instead of the rods and coil springs.
+
 | | |
 |---|---|
 | Mounting | UTRA 6-1000 tool flange: 6x M5 on PCD 64, Ø73 h7 pilot, Ø3 H7 dowel on PCD 52 (same as v1) |

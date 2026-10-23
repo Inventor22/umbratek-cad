@@ -8,7 +8,8 @@ barrel, with a compression spring along the pen axis. If the arm over-reaches to
 carriage slides up the barrel (up to 15 mm) instead of driving the pen into the table.
 
 For a holder that takes any pen from 6 to 17 mm, mounts it perpendicular to the flange and swaps pens
-without tools, see the [Quick-Change Pen Holder](../Quick-Change%20Pen%20Holder/README.md).
+without tools, see the [Quick-Change Pen Holder](../Quick-Change%20Pen%20Holder/README.md). For a version with a
+printed PETG flexure instead of the coil spring, see [Pen Holder v2](../Pen%20Holder%20v2/README.md).
 
 | | |
 |---|---|
