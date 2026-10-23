@@ -250,8 +250,8 @@ def _spread(ys: list[float], gaps: list[float], lo: float, hi: float) -> list[fl
 
 
 def annotate(img: Image.Image, sc: Scene, notes: list, *, size: int = 25, left_x: float = 0.27,
-             right_x: float = 0.73, top: int = 150) -> None:
-    """notes: (anchor xyz, 'L' | 'R', dy px, 'Bold first line\\nsecond line')."""
+             right_x: float = 0.73, top: int = 150, halo: int = 0) -> None:
+    """notes: (anchor xyz, 'L' | 'R', dy px, 'Bold first line\\nsecond line'). halo = text outline px."""
     w, h = img.size
     d = ImageDraw.Draw(img)
     f_b, f_r = font(size, bold=True), font(size - 3)
@@ -276,7 +276,8 @@ def annotate(img: Image.Image, sc: Scene, notes: list, *, size: int = 25, left_x
         for line, fn, hh in zip(lines, fonts, heights):
             tw = d.textlength(line, font=fn)
             x = edge - 10 - tw if side == "L" else edge + 10
-            d.text((x, y), line, font=fn, fill=INK if fn is f_b else (84, 90, 100))
+            d.text((x, y), line, font=fn, fill=INK if fn is f_b else (84, 90, 100),
+                   stroke_width=halo, stroke_fill=(251, 252, 253))
             y += hh
 
 

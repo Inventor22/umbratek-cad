@@ -7,6 +7,9 @@ A spring-loaded pen holder for the Umbratek UTRA 6-1000 arm, modelled in
 barrel, with a compression spring along the pen axis. If the arm over-reaches toward the surface, the
 carriage slides up the barrel (up to 15 mm) instead of driving the pen into the table.
 
+For a holder that takes any pen from 6 to 17 mm, mounts it perpendicular to the flange and swaps pens
+without tools, see the [Quick-Change Pen Holder](../Quick-Change%20Pen%20Holder/README.md).
+
 | | |
 |---|---|
 | Mounting | UTRA 6-1000 tool flange: 6x M5 on PCD 64, Ø73 h7 pilot, Ø3 H7 dowel on PCD 52 |
